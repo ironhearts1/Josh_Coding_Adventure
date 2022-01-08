@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styles.css"> 
+    </head>
+  <body>
+    <div class="tile-form">
+        <div class="tiles" id="header">
+            <h1 id="title" class="drop-shadow">What Kind Of Political Extremism Do You Subscribe To?</h1>
+            <p id="description">In this survery we are polling to see which types of politically extreme online only ideology you might be endorsing in your everyday online life!</p>
+        </div>
+        <div class="tiles">
+            <form id="survey-form">
+            <h2 class="section-heading drop-shadow">Some Formalities!</h2>
+            <label for="name" id="name-label">Enter Name Here: </label><br>
+            <input class="extra-margin" type="text" id="name" name="name" placeholder="ex - John Doe" required><br><br>
+            
+            <label for="email" id="email-label">Enter Email Here: </label><br>
+            <input class="extra-margin" type="email" id="email" name="email" placeholder="ex -johndoe@something.com" required><br><br>
+            
+            <label for="number" id="number-label">Enter Year of Birth Here: </label><br>
+            <input class="extra-margin" type="number" id="number" name="Year Born" placeholder="ex - 1995" max="2022" min="1920"><br><br>
+            
+            <label for="gender" id="gender-label">Choose Gender Identity: </label><br>
+            <select class="extra-margin" name="gender" id="dropdown">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Non-binary">Non-binary</option>
+                <option value="The-hell-if-i-know">The Hell If I Know!</option>
+            </select>
+        </div>
+        <div class="tiles">
+            <h2 class="section-heading drop-shadow">Onto the Politics!</h2>
+            
+            <h3>Would you describe yourself as politically...</h3>
+            <input type="radio" id="left" name="left-v-right" value="left">
+            <label for="left">Left</label><br>
+            <input type="radio" id="right" name="left-v-right" value="right">
+            <label for="right">Right</label><br>
+            <input type="radio" id="centrist" name="left-v-right" value="centrist">
+            <label for="centrist">Centrist</label><br>
+            
+            <br>
+            <h4>Next...</h4>
+            
+            <input type="radio" id="authoritarian" name="auth-v-lib" value="authoritarian">
+            <label for="authoritarian">Authoritarian</label><br>
+            <input type="radio" id="libertarian" name="auth-v-lib" value="libertarian">
+            <label for="libertarian">Libertarian</label><br>
+            <input type="radio" id="centrist" name="auth-v-lib" value="centrist">
+            <label for="centrist">Centrist</label><br>
+        </div>
+        <div class="tiles">
+            <br>
+            <h2 class="section-heading drop-shadow">Which Wacky View Listed Here Makes Your Heart Smile?</h2>
+            <br>
+            
+            <input type="checkbox" id="AnCap" name="AnCap" value="Anarcho-Capitalism">
+            <label for="AnCap">Anarcho-Capitalism</label><br>
+            <input type="checkbox" id="SovietComm" name="SovietComm" value="Soviet-Communism">
+            <label for="SovietComm">Soviet Style Communism</label><br>
+            <input type="checkbox" id="ChineseSoc" name="ChineseSoc" value="Socialism-with-Chinese-Characteristics">
+            <label for="ChineseSoc">Socialism with Chinese Characteristics</label><br>
+            <input type="checkbox" id="Fascism" name="Fascism" value="Fascim">
+            <label for="Fascism">Fascism</label><br>
+            <input type="checkbox" id="AnPrim" name="AnPrim" value="Anarcho-Primitivism">
+            <label for="AnPrim">Anarcho-Primitivism</label><br>
+            <input type="checkbox" id="Posadism" name="Posadism" value="Posadism">
+            <label for="Posadism">Posadism (Just blow us all up and i guess we got communism after?)</label><br><br>
+            <label for="other">Please Insert Any Other Wacky Belief</label><br><br>
+            <textarea id="other" name="other">What else you got :) </textarea>
+            <br>
+            <br>
+            <input type="submit" id="submit" value="Submit When Finished!">
+        </div>
+      </div>
+    </form>   
+  </body>
+</html>

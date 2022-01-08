@@ -1,0 +1,56 @@
+body {
+  /* background: #268bde; */
+  background: #1c66a3;
+  font-family: "Courier New";
+  font-weight: 550;
+}
+#header {
+  text-align: center;
+}
+#title {
+  font-weight: bold;
+}
+#description {
+  text-decoration: underline;
+}
+.tile-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+.tiles {
+  border: 3px solid black;
+  box-shadow: 4px 4px 20px;
+  width: auto;
+  padding: 10px;
+  background-color: white;
+  margin-top: 15px;
+  padding-bottom: 20px;
+}
+.section-heading {
+  text-decoration: underline;
+  text-align: center;
+}
+#submit {
+  margin-left: 150px;
+  text-decoration: underline;
+  font-size: 18px;
+  border: 3px solid black;
+}
+.extra-margin {
+  margin-top: 5px;
+  width: 60%;
+  padding: 5px;
+  border: 3px solid #4922cc;
+  border-radius: 10px;
+}
+.drop-shadow {
+  /* filter: drop-shadow(2px 2px 8px);*/
+  color: #4922cc;
+}
+textarea {
+  width: 60%;
+  height: 100px;
+}
